@@ -1,0 +1,365 @@
+# Harvard Shop Inventory Management System - Git Ignore Rules
+
+# =============================================================================
+# DEPENDENCIES
+# =============================================================================
+node_modules/
+client/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =============================================================================
+# DATABASE FILES
+# =============================================================================
+# SQLite databases
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Database backups
+backups/
+*.sql
+*.dump
+
+# =============================================================================
+# ENVIRONMENT AND CONFIGURATION
+# =============================================================================
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Configuration files with sensitive data
+config/production.json
+config/local.json
+
+# =============================================================================
+# BUILD OUTPUTS
+# =============================================================================
+# React build
+client/build/
+build/
+dist/
+
+# Production builds
+*.tgz
+*.tar.gz
+
+# =============================================================================
+# LOGS
+# =============================================================================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# =============================================================================
+# COVERAGE AND TESTING
+# =============================================================================
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# nyc test coverage
+.nyc_output
+
+# Jest coverage
+coverage/
+
+# =============================================================================
+# DEPENDENCY DIRECTORIES
+# =============================================================================
+node_modules/
+jspm_packages/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# =============================================================================
+# CACHE AND TEMPORARY FILES
+# =============================================================================
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# =============================================================================
+# EDITOR AND IDE FILES
+# =============================================================================
+# VS Code
+.vscode/
+*.code-workspace
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# =============================================================================
+# OPERATING SYSTEM FILES
+# =============================================================================
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# =============================================================================
+# UPLOADS AND MEDIA
+# =============================================================================
+uploads/
+media/
+images/
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.svg
+
+# Exclude sample images
+!client/public/images/
+!docs/images/
+
+# =============================================================================
+# CERTIFICATES AND KEYS
+# =============================================================================
+# SSL certificates
+*.pem
+*.key
+*.crt
+*.cert
+*.p12
+*.pfx
+
+# SSH keys
+id_rsa
+id_rsa.pub
+id_ed25519
+id_ed25519.pub
+
+# =============================================================================
+# DOCUMENTATION
+# =============================================================================
+# Auto-generated docs
+docs/api/
+docs/coverage/
+
+# =============================================================================
+# DEPLOYMENT
+# =============================================================================
+# Heroku
+.heroku/
+
+# Vercel
+.vercel
+
+# Netlify
+.netlify/
+
+# Railway
+.railway/
+
+# Docker
+.dockerignore
+Dockerfile.prod
+
+# =============================================================================
+# PACKAGE MANAGERS
+# =============================================================================
+# Yarn v2
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# =============================================================================
+# MONITORING AND ANALYTICS
+# =============================================================================
+# Sentry
+.sentryclirc
+
+# Google Analytics
+ga-credentials.json
+
+# =============================================================================
+# DEVELOPMENT TOOLS
+# =============================================================================
+# Webpack
+.webpack/
+
+# Parcel
+.cache/
+.parcel-cache/
+
+# Next.js
+.next/
+
+# Nuxt.js
+.nuxt/
+
+# Gatsby
+.cache/
+public/
+
+# =============================================================================
+# TESTING
+# =============================================================================
+# Jest
+jest.config.local.js
+
+# Cypress
+cypress/videos/
+cypress/screenshots/
+
+# =============================================================================
+# SECURITY
+# =============================================================================
+# Security scan results
+.snyk
+
+# Audit files
+audit.json
+
+# =============================================================================
+# CUSTOM PROJECT FILES
+# =============================================================================
+# Local development scripts
+scripts/local/
+
+# Personal notes
+NOTES.md
+TODO.md
+*.todo
+
+# Local configuration overrides
+config.local.js
+config.local.json
+
+# =============================================================================
+# BACKUP FILES
+# =============================================================================
+*.backup
+*.bak
+*.tmp
+*.temp
+
+# =============================================================================
+# COMPILED BINARIES
+# =============================================================================
+*.exe
+*.dll
+*.so
+*.dylib
+
+# =============================================================================
+# ARCHIVE FILES
+# =============================================================================
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+*.xz
+
+# =============================================================================
+# KEEP THESE FILES (Explicitly include important files)
+# =============================================================================
+# Keep example configuration
+!.env.example
+!config.example.json
+
+# Keep documentation images
+!docs/**/*.png
+!docs/**/*.jpg
+!docs/**/*.gif
+
+# Keep sample data
+!scripts/sample-data.json
+
+# Keep CI/CD configuration
+!.github/
+!.travis.yml
+!.circleci/
+!docker-compose.yml
+
+# Keep important documentation
+!README.md
+!CHANGELOG.md
+!LICENSE
+!CONTRIBUTING.md
