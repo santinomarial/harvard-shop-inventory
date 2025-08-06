@@ -363,11 +363,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👤 **Author**
 
-**Your Name**
-- 📧 Email: your.email@harvard.edu
-- 💼 LinkedIn: [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)
-- 🐙 GitHub: [github.com/yourusername](https://github.com/yourusername)
-- 🌐 Portfolio: [yourwebsite.com](https://yourwebsite.com)
+**Santino Marial**
+- 📧 Email: smarial@college.harvard.edu
+- 💼 LinkedIn: (www.linkedin.com/in/santinomarial)
 
 ---
 
